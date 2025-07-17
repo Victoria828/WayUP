@@ -257,32 +257,12 @@ footer {
   .btn {
     display: inline;
   }
-    @-webkit-keyframes fadeInRight {
-    from {
-      opacity: 0;
-      -webkit-transform: translate3d(5px, 0, 0);
-      transform: translate3d(5px, 0, 0);
-    }
-
-    to {
-      opacity: 1;
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
+  
+  .fadeInRight {
+    animation: none !important;
+    -webkit-animation: none !important;
+    transform: none !important;
+    -webkit-transform: none !important;
   }
-
-  @keyframes fadeInRight {
-    from {
-      opacity: 0;
-      -webkit-transform: translate3d(5px, 0, 0);
-      transform: translate3d(5px, 0, 0);
-    }
-
-    to {
-      opacity: 1;
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-  }
-}
+    
 }
