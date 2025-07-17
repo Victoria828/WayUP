@@ -257,12 +257,5 @@ footer {
   .btn {
     display: inline;
   }
-  
-  .fadeInRight {
-    animation: none !important;
-    -webkit-animation: none !important;
-    transform: none !important;
-    -webkit-transform: none !important;
-  }
     
 }
