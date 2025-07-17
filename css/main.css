@@ -173,9 +173,9 @@ footer {
 
 /* 992px - 1200px */
 @media screen and (max-width: 1200px) {
- /* .container {
+ .container {
     width: 960px;
-  }*/
+  }
   .wrapper {
     flex-direction: column;
   }
