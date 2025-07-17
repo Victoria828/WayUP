@@ -230,8 +230,4 @@ footer {
   .btn {
     display: inline;
   }
-  * {
-  animation: none !important;
-  transition: none !important;
-}
 }
